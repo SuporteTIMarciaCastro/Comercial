@@ -88,7 +88,7 @@ export default function ListaDesejosPage() {
                 onChange={(e) => setSearchTerm(e.target.value)}
                 className="max-w-xs"
               />
-              <Button onClick={() => router.push("/lista-desejos/novo")}>Adicionar Novo</Button>
+              {/*<Button onClick={() => router.push("/lista-desejos/novo")}>Adicionar Novo</Button>*/}
               <Button variant="outline" onClick={() => router.push("/lista-desejos/formulario")}>
                 Formulário para Cliente
               </Button>
